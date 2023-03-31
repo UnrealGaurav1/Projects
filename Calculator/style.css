@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; 
+    background-color: black;
+}
+.calculator .row input{
+    min-width: 14vw;
+    max-width: 16vw;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: black;
+}
+.calculator .row input::placeholder{
+    font-size: 15px;
+}
+.calculator .row1 .button{
+    width: 50px;
+    height: 50px;
+    margin: 3px 4px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #9F9F9F;
+    cursor: pointer;
+}
+.calculator .row1 #clear{
+    width: 50px;
+    height: 50px;
+    margin: 3px 4px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #9F9F9F;
+    cursor: pointer;
+}
+
+.calculator .row2 .button{
+    width: 50px;
+    height: 50px;
+    margin: 3px 4px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #313131;
+    cursor: pointer;
+}
+.calculator .row3 .button{
+    width: 50px;
+    height: 50px;
+    margin: 3px 4px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #313131;
+    cursor: pointer;
+}
+.calculator .row4 .button{
+    width: 50px;
+    height: 50px;
+    margin: 3px 4px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #313131;
+    cursor: pointer;
+}
+.calculator .row5 .button{
+    width: 50px;
+    height: 50px;
+    margin: 3px 4px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #313131;
+    cursor: pointer;
+}
+.calculator .row5 #evaluate{
+    width: 50px;
+    height: 50px;
+    margin: 3px 4px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #F69906;
+    cursor: pointer;
+}
+.calculator .row2  .button:nth-child(4){
+    background-color: #F69906;
+}
+.calculator .row3  .button:nth-child(4){
+    background-color: #F69906;
+}
+.calculator .row4  .button:nth-child(4){
+    background-color: #F69906;
+}
+.calculator .row5  .button:nth-child(3){
+    background-color: #F69906;
+}
+.calculator .row5 .button:nth-child(1){
+    min-width: 7.5vw;
+}
+
+
