@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.counter{
+    position: absolute;
+    top: 40vh;
+    left: 30vw;
+}
+.counter .info{
+    margin-left: 210px;
+}
+.counter span{
+    font-size: 35px;
+}
+.counter button{
+    height: 5vh;
+    width: 10vw;
+    margin: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+

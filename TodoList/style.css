@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    position: relative;
+    margin: auto;
+    top: 10vh;
+    background-color: rgb(54, 51, 51);
+    width: 30vw;
+    height: 70vh;
+    overflow: scroll;
+}
+.container .TodoContainer{
+    margin-top: 3vh;
+    width: 30vw;
+    height: 6;
+    color: black;
+    background-color: white;
+    padding-left: 2vw;
+    line-height: 7vh;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.container input{
+    position: relative;
+    width: 30vw;
+    height: 7vh;
+    padding-left: 2vw;
+    font-size: 1.2rem;
+}
+.container button{
+    position: fixed;
+    top: 73vh;
+    width: 30vw;
+    height: 7vh;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

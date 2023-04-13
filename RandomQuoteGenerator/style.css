@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+   
+}
+.container span{
+    position: relative;
+    top: 30vh;
+    left: 25vw;
+    width: 50vw;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    color: black;
+}
+.container button{
+    position: relative;
+    top: 60vh;
+    width: 17vw;
+    height: 6vh;
+    margin: auto;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s;
+}
+.container button:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
